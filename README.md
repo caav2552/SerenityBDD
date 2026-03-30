@@ -14,7 +14,7 @@ java -version
 mvn -version
 ```
 
-## Quick Start
+## Run Test 
 
 ```bash
 # Install dependencies
