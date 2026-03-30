@@ -1,0 +1,52 @@
+
+CONCLUSIONS – DEMOBLAZE E2E AUTOMATION
+
+Date: March 30, 2026  
+Framework: Serenity BDD + Cucumber  
+Website: https://www.demoblaze.com/
+
+
+SUMMARY
+
+The main purchase flow (E2E) was automated, covering cart validation, checkout, and purchase confirmation.
+
+The focus was on validating the critical user journey rather than full system coverage.
+
+
+KEY FINDINGS
+
+- Dynamic content requires explicit waits
+- JavaScript alerts must be handled manually
+- Lack of loading indicators makes synchronization harder
+- Some elements rely on non-standard navigation (onclick)
+
+These factors can impact test stability if not properly handled.
+
+
+CHALLENGES
+
+- Handling alerts
+- Synchronizing dynamic elements
+- Managing navigation flow
+- Waiting for modals to load correctly
+
+
+APPROACH
+
+- Page Object Model for structure
+- Reusable steps with Cucumber
+- Explicit waits for stability
+- Focus on business-critical validation
+
+
+LIMITATIONS
+
+- Demo environment (potential instability)
+- UI-only validation (no backend checks)
+- Generic selectors in checkout
+- Dependence on waits
+
+
+FINAL NOTE
+
+The purchase flow is successfully automated and validated.
